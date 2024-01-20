@@ -5,6 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Practice Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1>
+            Hi, I'm <span>Kevin</span> <br />
+            Jen From Australia
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------- About --------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              quaerat alias pariatur modi in magnam iste nihil error!Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Possimus quaerat
+              alias pariatur modi in magnam iste nihil error! Temporibus,
+              commodi corporis ex tempore rem iure dicta laboriosam. Quas,
+              possimus nemo?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/IOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/IOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>3</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/IOS Apps
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------- Services --------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              beatae numquam explicabo omnis voluptatem, deleniti soluta unde
+              nostrum modi nihil quidem error itaque aliquid non, exercitationem
+              reiciendis earum laboriosam amet.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              beatae numquam explicabo omnis voluptatem, deleniti soluta unde
+              nostrum modi nihil quidem error itaque aliquid non, exercitationem
+              reiciendis earum laboriosam amet.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              beatae numquam explicabo omnis voluptatem, deleniti soluta unde
+              nostrum modi nihil quidem error itaque aliquid non, exercitationem
+              reiciendis earum laboriosam amet.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
